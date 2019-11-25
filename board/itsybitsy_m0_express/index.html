@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+  <meta name="msapplication-TileColor" content="#1a1919">
+  <meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png">
+  <title>ItsyBitsy M0 Express Download</title>
+  <meta name="description" content="What’s smaller than a Feather but larger than a Trinket? It’s an Adafruit ItsyBitsy M0 Express! Small, powerful, with a rockin’ ATSAMD21 Cortex M0 processor ...">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/board/itsybitsy_m0_express/">
+</head>
+
+
+  <body>
+    <header id="site-header">
+  <div class="wrapper">
+    <div class="content">
+      <div class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+      </div>
+
+      <div class="site-navigation">
+        <a href="/downloads">DOWNLOADS</a>
+        <a href="/libraries">LIBRARIES</a>
+        <a href="/contributing">CONTRIBUTING</a>
+        <a href="/blinka">BLINKA</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">NEWS</a>
+        <a href="https://adafru.it/discord">DISCORD</a>
+        <a href="/awesome">AWESOME</a>
+        <a href="https://learn.adafruit.com/welcome-to-circuitpython">HELP</a>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div class="wrapper">
+      <div id="download-page">
+  <h1>ItsyBitsy M0 Express</h1>
+  <h3>by Adafruit</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/itsybitsy_m0_express.jpg" alt="Image of Board">
+        
+        <p>
+          <p>What’s smaller than a Feather but larger than a Trinket? It’s an <strong>Adafruit ItsyBitsy M0 Express</strong>! Small, powerful, with a rockin’ ATSAMD21 Cortex M0 processor running at 48 MHz - this microcontroller board is perfect when you want something very compact, but still with a bunch of pins.</p>
+
+<p>ItsyBitsy M0 Express is only 1.4” long by 0.7” wide, but has 6 power pins, 23 digital GPIO pins (12 of which can be analog in, 1x analog out, and 13x PWM out). It packs much of the same capability as an <a href="https://www.adafruit.com/product/3505">Adafruit Metro M0 Express</a> or <a href="https://www.adafruit.com/product/3403">Feather M0 Express</a> but <em>really really small</em>. So it’s great once you’ve finished up a prototype on a Metro M0 or Feather M0, and want to make the project much smaller. It even comes with 2MB of SPI Flash built in, for data logging, file storage, or CircuitPython code.</p>
+
+<p>The most exciting part of the ItsyBitsy M0 is that it is shipping with CircuitPython on board. When you plug it in, it will show up as a very small disk drive with code.py on it. Edit code.py with your favorite text editor to build your project using Python, the most popular programming language. No installs, IDE or compiler needed, so you can use it on any computer, even ChromeBooks or computers you can’t install software on. When you’re done, unplug the Itsy’ and your code will go with you.</p>
+
+<p>Here are some of the updates you can look forward to when using ItsyBitsy M0:</p>
+
+<ul>
+  <li>Same size, form-factor as the ItsyBisty 32u4, and nearly-indentical pinout as <a href="https://www.adafruit.com/product/3675">ItsyBitsy 32u4 3.3V</a></li>
+  <li><strong>ATSAMD21G18 32-bit Cortex M0+</strong> with <strong>256KB Flash</strong> and <strong>32 KB RAM</strong></li>
+  <li><strong>3.3V logic</strong>, <strong>48 MHz</strong>, <strong>32 bit</strong> processor</li>
+  <li><strong>2 MB SPI FLASH chip</strong> for storing files and CircuitPython code storage.</li>
+  <li>Native USB supported by every OS - can be used in CircuitPython as USB serial console, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.</li>
+  <li>Built in red pin #13 LED</li>
+  <li>Built in RGB DotStar LED</li>
+  <li>Tons of GPIO! 23 x GPIO pins with following capabilities:
+    <ul>
+      <li>1 x True analog output pin - can be used to play 10-bit quality audio clips</li>
+      <li>13 x PWM outputs - for servos, LEDs, etc</li>
+      <li>11 x 12-bit analog inputs</li>
+      <li>7 x Hardware capacitive touch sensors with no additional components required</li>
+      <li>1 x Special <strong>Vhigh</strong> output pin gives you the higher voltage from VBAT or VUSB, for driving NeoPixels, servos, and other high-current devices. <strong>Digital 5</strong> level-shifted output for high-voltage logic level output.</li>
+      <li>Can drive NeoPixels or DotStars on any pins, with enough memory to drive 8000+ pixels. <a href="https://learn.adafruit.com/dma-driven-neopixels">DMA-NeoPixel support on the VHigh pin </a>so you can drive pixels without having to spend any processor time on it.</li>
+      <li>Native hardware SPI, I2C and Serial all available</li>
+    </ul>
+  </li>
+  <li>Reset button and pin</li>
+  <li>Power with either USB or external output (such as a battery) - it’ll automatically switch over</li>
+</ul>
+
+<p>Comes assembled and tested ItsyBitsy M0, with header that can be soldered in for use with a breadboard. ItsyBity M0 comes with CircuitPython &amp; example code programmed in.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/3727">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/itsybitsy_m0_express.md">here</a>.</p>
+
+        </p>
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+  <div class="section stable">
+    <h3>CircuitPython 4.1.0</h3>
+    <p>
+      This is the latest <strong>stable</strong>
+      release of CircuitPython that will work with the ItsyBitsy M0 Express.
+    </p>
+    <p>
+      
+      <strong>Start here</strong> if you are new to CircuitPython.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/4.1.0">Release Notes for 4.1.0</a>
+    </p>
+    <div class="download-details">
+      <label class="language-select">
+        <select>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-ID-4.1.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-ID-4.1.0.uf2 data-locale=ID >
+            
+                INDONESIAN
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-de_DE-4.1.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-de_DE-4.1.0.uf2 data-locale=de-DE >
+            
+                GERMAN
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-en_US-4.1.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-en_US-4.1.0.uf2 data-locale=en-US selected>
+            
+                ENGLISH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-en_x_pirate-4.1.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-en_x_pirate-4.1.0.uf2 data-locale=en-x-pirate >
+            
+                PIRATE (ENGLISH)
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-es-4.1.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-es-4.1.0.uf2 data-locale=es >
+            
+                SPANISH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-fil-4.1.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-fil-4.1.0.uf2 data-locale=fil >
+            
+                FILIPINO
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-fr-4.1.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-fr-4.1.0.uf2 data-locale=fr >
+            
+                FRENCH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-it_IT-4.1.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-it_IT-4.1.0.uf2 data-locale=it-IT >
+            
+                ITALIAN
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-pl-4.1.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-pl-4.1.0.uf2 data-locale=pl >
+            
+                POLISH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-pt_BR-4.1.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-pt_BR-4.1.0.uf2 data-locale=pt-BR >
+            
+                PORTUGUESE (BRAZILIAN)
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-zh_Latn_pinyin-4.1.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-zh_Latn_pinyin-4.1.0.uf2 data-locale=zh-Latn-pinyin >
+            
+                CHINESE (PINYIN)
+              
+          </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button stable uf2" href="https://github.com/adafruit/circuitpython/releases/download/4.1.0/adafruit-circuitpython-itsybitsy_m0_express-en_US-4.1.0.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="section unstable">
+    <h3>CircuitPython 5.0.0-beta.0</h3>
+    <p>
+      This is the latest unstable
+      release of CircuitPython that will work with the ItsyBitsy M0 Express.
+    </p>
+    <p>
+      
+      Unstable builds have the latest features but are more likely to have critical bugs.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/5.0.0-beta.0">Release Notes for 5.0.0-beta.0</a>
+    </p>
+    <div class="download-details">
+      <label class="language-select">
+        <select>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-ID-5.0.0-beta.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-ID-5.0.0-beta.0.uf2 data-locale=ID >
+            
+                INDONESIAN
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-de_DE-5.0.0-beta.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-de_DE-5.0.0-beta.0.uf2 data-locale=de-DE >
+            
+                GERMAN
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-en_US-5.0.0-beta.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-en_US-5.0.0-beta.0.uf2 data-locale=en-US selected>
+            
+                ENGLISH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-en_x_pirate-5.0.0-beta.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-en_x_pirate-5.0.0-beta.0.uf2 data-locale=en-x-pirate >
+            
+                PIRATE (ENGLISH)
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-es-5.0.0-beta.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-es-5.0.0-beta.0.uf2 data-locale=es >
+            
+                SPANISH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-fil-5.0.0-beta.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-fil-5.0.0-beta.0.uf2 data-locale=fil >
+            
+                FILIPINO
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-fr-5.0.0-beta.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-fr-5.0.0-beta.0.uf2 data-locale=fr >
+            
+                FRENCH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-it_IT-5.0.0-beta.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-it_IT-5.0.0-beta.0.uf2 data-locale=it-IT >
+            
+                ITALIAN
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-pl-5.0.0-beta.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-pl-5.0.0-beta.0.uf2 data-locale=pl >
+            
+                POLISH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-pt_BR-5.0.0-beta.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-pt_BR-5.0.0-beta.0.uf2 data-locale=pt-BR >
+            
+                PORTUGUESE (BRAZILIAN)
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-zh_Latn_pinyin-5.0.0-beta.0.uf2" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-zh_Latn_pinyin-5.0.0-beta.0.uf2 data-locale=zh-Latn-pinyin >
+            
+                CHINESE (PINYIN)
+              
+          </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button unstable uf2" href="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-itsybitsy_m0_express-en_US-5.0.0-beta.0.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically build binaries for it. They
+    are stored on Amazon S3 by language (some which may be unreleased.) Try them if you want
+    the absolute latest and are feeling risky.
+  </p>
+  <div>
+      <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/itsybitsy_m0_express/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Past Releases</h3>
+  <p>
+    All previous releases are available on GitHub. They are handy for testing but we recommend
+    the latest stable otherwise.
+  </p>
+  <div>
+      <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>

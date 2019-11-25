@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+  <meta name="msapplication-TileColor" content="#1a1919">
+  <meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png">
+  <title>Pyboard Download</title>
+  <meta name="description" content="The pyboard is a compact and powerful electronics development board that runs MicroPython. It connects to your PC over USB, giving you a USB flash drive to s...">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/board/pyboard_v11/">
+</head>
+
+
+  <body>
+    <header id="site-header">
+  <div class="wrapper">
+    <div class="content">
+      <div class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+      </div>
+
+      <div class="site-navigation">
+        <a href="/downloads">DOWNLOADS</a>
+        <a href="/libraries">LIBRARIES</a>
+        <a href="/contributing">CONTRIBUTING</a>
+        <a href="/blinka">BLINKA</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">NEWS</a>
+        <a href="https://adafru.it/discord">DISCORD</a>
+        <a href="/awesome">AWESOME</a>
+        <a href="https://learn.adafruit.com/welcome-to-circuitpython">HELP</a>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div class="wrapper">
+      <div id="download-page">
+  <h1>Pyboard</h1>
+  <h3>by Damien George</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/pyboard_v11.jpg" alt="Image of Board">
+        
+        <p>
+          <p>The pyboard is a compact and powerful electronics development board that runs MicroPython. It connects to your PC over USB, giving you a USB flash drive to save your Python scripts, and a serial Python prompt (a REPL) for instant programming. Requires a micro USB cable, and will work with Windows, Mac and Linux.</p>
+
+<p>There are 3 main ways to control the pyboard:</p>
+
+<ul>
+  <li><strong>REPL:</strong> Connecting to your PC via USB, the board appears as a USB virtual comms port (CDC VCP) and you can use any serial program to connect and get a Python REPL prompt. This allows you to instantly type and execute Python commands, just like you would when running Python on your PC. You can also redirect the REPL to any of the UARTs on the pyboard.</li>
+  <li><strong>Remote script:</strong> You can change from REPL to raw REPL mode by sending ctrl-A, and then in raw REPL mode you can send an arbitrary Python script to the board for it to execute immediately. A Python script is available which makes using this mode very simple: you just run python pyboard.py script_to_run.py and this will execute script_to_run.py on the pyboard, returning any output.</li>
+  <li><strong>From file:</strong> The pyboard has a small, built-in filesystem which lives in part of the flash memory of the microcontroller. It also has an SD card slot if you want to extend the available storage. When you connect the pyboard to your PC, it appears as a USB flash storage device and you can access (mount) the internal filesystem and the SD card this way. If you copy a Python script to the filesystem and call it main.py then the board will execute this script when it starts up. This way you can run scripts without being connected to a PC.</li>
+</ul>
+
+<p><strong>Main features of the hardware:</strong></p>
+<ul>
+  <li>STM32F405RG microcontroller</li>
+  <li>168 MHz Cortex M4 CPU with hardware floating point</li>
+  <li>1024KiB flash ROM and 192KiB RAM</li>
+  <li>Micro USB connector for power and serial communication</li>
+  <li>Micro SD card slot, supporting standard and high capacity SD cards</li>
+  <li>3-axis accelerometer (MMA7660)</li>
+  <li>Real time clock with optional battery backup</li>
+  <li>24 GPIO on left and right edges and 5 GPIO on bottom row, plus LED and switch GPIO available on bottom row</li>
+  <li>3x 12-bit analog to digital converters, available on 16 pins, 4 with analog ground shielding</li>
+  <li>2x 12-bit digital to analog (DAC) converters, available on pins X5 and X6</li>
+  <li>4 LEDs (red, green, yellow and blue)</li>
+  <li>1 reset and 1 user switch</li>
+  <li>On-board 3.3V LDO voltage regulator, capable of supplying up to 300mA, input voltage range 3.6V to 10V</li>
+  <li>DFU bootloader in ROM for easy upgrading of firmware</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/2390">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/pyboard_v11.md">here</a>.</p>
+
+        </p>
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+  <div class="section unstable">
+    <h3>CircuitPython 5.0.0-beta.0</h3>
+    <p>
+      This is the latest unstable
+      release of CircuitPython that will work with the Pyboard.
+    </p>
+    <p>
+      
+      Unstable builds have the latest features but are more likely to have critical bugs.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/5.0.0-beta.0">Release Notes for 5.0.0-beta.0</a>
+    </p>
+    <div class="download-details">
+      <label class="language-select">
+        <select>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-ID-5.0.0-beta.0.bin" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-ID-5.0.0-beta.0.bin data-locale=ID >
+            
+                INDONESIAN
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-de_DE-5.0.0-beta.0.bin" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-de_DE-5.0.0-beta.0.bin data-locale=de-DE >
+            
+                GERMAN
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-en_US-5.0.0-beta.0.bin" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-en_US-5.0.0-beta.0.bin data-locale=en-US selected>
+            
+                ENGLISH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-en_x_pirate-5.0.0-beta.0.bin" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-en_x_pirate-5.0.0-beta.0.bin data-locale=en-x-pirate >
+            
+                PIRATE (ENGLISH)
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-es-5.0.0-beta.0.bin" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-es-5.0.0-beta.0.bin data-locale=es >
+            
+                SPANISH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-fil-5.0.0-beta.0.bin" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-fil-5.0.0-beta.0.bin data-locale=fil >
+            
+                FILIPINO
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-fr-5.0.0-beta.0.bin" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-fr-5.0.0-beta.0.bin data-locale=fr >
+            
+                FRENCH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-it_IT-5.0.0-beta.0.bin" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-it_IT-5.0.0-beta.0.bin data-locale=it-IT >
+            
+                ITALIAN
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-pl-5.0.0-beta.0.bin" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-pl-5.0.0-beta.0.bin data-locale=pl >
+            
+                POLISH
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-pt_BR-5.0.0-beta.0.bin" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-pt_BR-5.0.0-beta.0.bin data-locale=pt-BR >
+            
+                PORTUGUESE (BRAZILIAN)
+              
+          </option>
+          
+          <option value="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-zh_Latn_pinyin-5.0.0-beta.0.bin" data-files=https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-zh_Latn_pinyin-5.0.0-beta.0.bin data-locale=zh-Latn-pinyin >
+            
+                CHINESE (PINYIN)
+              
+          </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button unstable bin" href="https://github.com/adafruit/circuitpython/releases/download/5.0.0-beta.0/adafruit-circuitpython-pyboard_v11-en_US-5.0.0-beta.0.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically build binaries for it. They
+    are stored on Amazon S3 by language (some which may be unreleased.) Try them if you want
+    the absolute latest and are feeling risky.
+  </p>
+  <div>
+      <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/pyboard_v11/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Past Releases</h3>
+  <p>
+    All previous releases are available on GitHub. They are handy for testing but we recommend
+    the latest stable otherwise.
+  </p>
+  <div>
+      <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>
